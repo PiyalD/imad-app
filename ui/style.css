@@ -5,15 +5,15 @@ body {
 }
 
 .center {
-    text-align: right;
+    text-align: center;
 }
 
 .text-big {
-    font-size: 50%;
+    font-size: 300%;
 }
 
 .bold {
-    font-weight: italic;
+    font-weight: bold;
 }
 
 .img-medium {
