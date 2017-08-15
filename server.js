@@ -23,6 +23,38 @@ var article_one_content={
 }
 
 
+var article_two_content={
+    title: 'Article-two | Piyal De',
+    heading: 'Article two',
+    date: 'August 25, 2017',
+    content:`	<p>
+		hello every one !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..
+		</p>	
+
+		<p>
+		hello every one !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..
+		</p>
+
+		<p>
+		hello every one!! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..
+		</p>`
+}
+
+var article_three_content={
+    title: 'Article-three | Piyal De',
+    heading: 'Article three',
+    date: 'August 30, 2017',
+    content:`	<p>
+	      hello every one !! welcome to my third blog..<br>First Line..
+		
+		</p>	
+
+		<p>
+		hello every one !! welcome to my third blog..<br>Second Line..
+		</p>`
+    
+}
+
 
 
 function createTemplate(data)
@@ -86,7 +118,7 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Article-two.html'));
+  res.send(createTemplate(article_two_content));
 });
 
 app.get('/article-three', function (req, res){
