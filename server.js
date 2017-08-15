@@ -38,9 +38,9 @@ var htmlTemplate=`
 	<head>
 		
 		<title>
-			<h4>
+			
 			    ${title}
-			</h4>
+			
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="/ui/style.css" rel="stylesheet" />
@@ -51,9 +51,9 @@ var htmlTemplate=`
 		<a href="/">HOME</a>
 	</div>
 	<hr/>
-	<h4>
+	<h5>
 		${heading}
-	</h4>
+	</h5>
 	<div>
 		${date}
 	</div>
