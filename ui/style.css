@@ -3,7 +3,9 @@ body {
     background : black;
     margin-top: 60px;
 }
-
+ footer{
+     color: orange;
+ }
 .center {
     text-align: center;
 }
