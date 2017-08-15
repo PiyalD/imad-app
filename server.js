@@ -51,9 +51,9 @@ var htmlTemplate=`
 		<a href="/">HOME</a>
 	</div>
 	<hr/>
-	<h5>
+	<h1>
 		${heading}
-	</h5>
+	</h1>
 	<div>
 		${date}
 	</div>
