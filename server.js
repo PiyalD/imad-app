@@ -69,7 +69,7 @@ var htmlTemplate=`
 	<a href="mailto:piyalde2009@gmail.com">piyalde2009@gmail.com</a>
 </p>
 </footer>
-</html>`
+</html>`;
 
 return htmlTemplate;
 }
