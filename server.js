@@ -122,7 +122,7 @@ app.get('/article-two', function (req, res) {
 });
 
 app.get('/article-three', function (req, res){
-    res.send(createtTemplate(article_three_content));
+  res.send(createtTemplate(article_three_content));
 });
 
 app.get('/ui/style.css', function (req, res) {
