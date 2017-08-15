@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: fantasy;
+    background : black;
     margin-top: 60px;
 }
 
@@ -9,6 +10,7 @@ body {
 
 .text-big {
     font-size: 300%;
+    
 }
 
 .bold {
