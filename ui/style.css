@@ -6,6 +6,12 @@ body {
  footer{
      color: orange;
  }
+ 
+ header{
+     color: red;
+     background: yellow;
+ }
+ 
 .center {
     text-align: center;
 }
