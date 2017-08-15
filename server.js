@@ -5,9 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
+var articles:{
     
-var 'article-one':{
+'article-one':{
     title: 'Article-one | Piyal De',
     heading: 'Article one',
     date: 'August 15, 2017',
@@ -21,11 +21,10 @@ var 'article-one':{
 
 		<p>
 		hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..
-		</p>`;
+		</p>`
 },
 
-
-var 'article_two':{
+'article_two':{
     title: 'Article-two | Piyal De',
     heading: 'Article two',
     date: 'August 25, 2017',
@@ -39,10 +38,10 @@ var 'article_two':{
 
 		<p>
 		hello every one!! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..<br>hello every two !! welcome to my second blog..
-		</p>`;
+		</p>`
 },
 
-var 'article-three':{
+'article-three':{
     title: 'Article-three | Piyal De',
     heading: 'Article three',
     date: 'August 30, 2017',
@@ -53,10 +52,10 @@ var 'article-three':{
 
 		<p>
 		hello every one !! welcome to my third blog..<br>Second Line..
-		</p>`;
+		</p>`
     
 }
-
+};
 
 
 function createTemplate(data)
