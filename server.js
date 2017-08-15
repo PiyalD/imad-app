@@ -24,7 +24,7 @@ var articles={
 		</p>`
 },
 
-'article_two':{
+'article-two':{
     title: 'Article-two | Piyal De',
     heading: 'Article two',
     date: 'August 25, 2017',
