@@ -1,20 +1,8 @@
-console.log('Loaded!');
-alert('Welcome to Piyal\'s IMAD Profile');
-//chnge the text of main-text div
-var element = document.getElementById('main-text');
-element.innerHTML='HI!! This is PIYAL..and this is my first webapp';
-//move the image
-var img=document.getElementById('madi');
-
-
-var marginLeft=0;
-function moveRight(){
-    marginLeft = marginLeft + 1;
-    img.style.marginLeft=marginLeft + 'px';
-}
-
-img.onclick = function(){
-    
-    var interval = setInterval(moveRight, 50);
+//counter
+var counter=0;
+var button= document.getElementById('counter')
+button.onclick=function(){
+   counter=counter+1; 
+   var span=document.getElementById("span");
+   span.innerHTML=counter.toString();
 };
-
