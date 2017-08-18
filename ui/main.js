@@ -20,3 +20,22 @@ button.onclick=function(){
     request.open('GET', 'http://piyalde2009.imad.hasura-app.io/counter', true);
     request.send(null);
 };
+
+
+var nameInp = document.getElementById('name');
+var name = nameInp.value;
+
+var submit = document.getElementbyId('submit_bttn');
+submit.onclick = function()
+{
+  //send a request to the server with a name as parameter
+  
+  
+  //render the response of list of names into the html code
+  var names=['name1', 'name2', 'name3'];
+  
+  for(var i=0; i<names.length; i++)
+     name[i]='<l>'+name[i]+'</l><br>';
+   var ls=document.getElementById('lst');
+   ls.innerHtml=names;
+};
