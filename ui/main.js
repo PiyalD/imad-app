@@ -22,8 +22,7 @@ button.onclick=function(){
 };
 
 //SUBMIT NAME
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
@@ -45,8 +44,11 @@ submit.onclick = function(){
             }
         }
     };    
+    
+    var nameInput = document.getElementById('name');
+    var name = nameInput.value;
     //make the request
-    request.open('GET', 'http://piyalde2009.imad.hasura-app.io/submit-name?=', true);
+    request.open('GET', 'http://piyalde2009.imad.hasura-app.io/submit-name?=' + name, true);
     request.send(null);
   
   
