@@ -119,8 +119,9 @@ app.get('/counter', function(req, res){
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 var names=[];
-app.get('/submit-name?name=', function(res,req){
+app.get('/submit-name', function(res,req){
    var name= req.query.name;
    names.push(name);
    return names;
