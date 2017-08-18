@@ -124,7 +124,8 @@ var names=[];
 app.get('/submit-name', function(res,req){
    var name= req.query.name;
    names.push(name);
-   return names;
+   //JSON: JavaScript Object Notation.. used to convert JavaScript objects into strings
+   res.send(JSON.stringify(names));
 });
 
 app.get('/:articleName', function (req, res) {
