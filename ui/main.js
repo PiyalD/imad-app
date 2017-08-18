@@ -21,7 +21,7 @@ button.onclick=function(){
     request.send(null);
 };
 
-//SUBMIT NAME
+
 
 
 var submit = document.getElementById('submit_btn');
@@ -45,7 +45,7 @@ submit.onclick = function(){
             }
         }
     };    
-    
+    //SUBMIT NAME
     var nameInput = document.getElementById('name');
     var name = nameInput.value;
     //make the request
