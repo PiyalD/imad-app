@@ -34,7 +34,7 @@ submit.onclick = function(){
             //take some action
             if(request.status === 200){
                 //render the response of list of names into the html code
-                  var names=['name1', 'name2', 'name3'];
+                  var names=request.responseText;
                  var list=''                                          //empty list
                   for(var i=0; i< names.length; i++){
                      list += '<li>' + names[i] + '</li>';
