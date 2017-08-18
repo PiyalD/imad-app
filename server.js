@@ -121,8 +121,10 @@ app.get('/', function (req, res) {
 });
 
 var names=[];
-app.get('/submit-name', function(res,req){
+app.get('/submit-name', function(res,req){ //submit-name?name=xxx
+    //get the name from the request
    var name= req.query.name;
+   
    names.push(name);
    //JSON: JavaScript Object Notation.. used to convert JavaScript objects into strings
    res.send(JSON.stringify(names));
