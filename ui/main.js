@@ -28,14 +28,26 @@ var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
   //send a request to the server with a name as parameter
+  var request = new XMLHttpRequest(); //create a request 
+    //capture the response and store it in a variable
+    request.onreadystatechange = function(){
+        if(request.readyState === XMLHttpRequest.DONE){
+            //take some action
+            if(request.status === 200){
+                //render the response of list of names into the html code
+                  var names=['name1', 'name2', 'name3'];
+                 var list=''                                          //empty list
+                  for(var i=0; i< names.length; i++){
+                     list += '<li>' + names[i] + '</li>';
+                  }
+                   var ul=document.getElementById('namelist');
+                   ul.innerHTML = list;
+            }
+        }
+    };    
+    //make the request
+    request.open('GET', 'http://piyalde2009.imad.hasura-app.io/submit-name?=', true);
+    request.send(null);
   
   
-  //render the response of list of names into the html code
-  var names=['name1', 'name2', 'name3'];
- var list=''                                          //empty list
-  for(var i=0; i< names.length; i++){
-     list += '<li>' + names[i] + '</li>';
-  }
-   var ul=document.getElementById('namelist');
-   ul.innerHTML = list;
 };
