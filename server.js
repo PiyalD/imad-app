@@ -119,6 +119,12 @@ app.get('/counter', function(req, res){
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+var names=[];
+app.get('/submit-name?name=', function(res,req){
+   var name= req.query.name;
+   names.push(name);
+   return names;
+});
 
 app.get('/:articleName', function (req, res) {
     var articleName=req.params.articleName
