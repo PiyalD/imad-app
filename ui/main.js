@@ -35,6 +35,7 @@ submit.onclick = function(){
             if(request.status === 200){
                 //render the response of list of names into the html code
                   var names=request.responseText;
+                  names= JSON.parse(names);
                  var list=''                                          //empty list
                   for(var i=0; i< names.length; i++){
                      list += '<li>' + names[i] + '</li>';
@@ -50,6 +51,4 @@ submit.onclick = function(){
     //make the request
     request.open('GET', 'http://piyalde2009.imad.hasura-app.io/submit-name?=' + name, true);
     request.send(null);
-  
-  
 };
