@@ -130,10 +130,10 @@ app.get('/submit-name', function(req,res){ //submit-name?name=xxx
    res.send(JSON.stringify(names));
 });
 
-//app.get('/:articleName', function (req, res) {
-//    var articleName=req.params.articleName;
-//  res.send(createTemplate(articles[articleName]));
-//});
+app.get('/:articleName', function (req, res) {
+    var articleName=req.params.articleName;
+  res.send(createTemplate(articles[articleName]));
+});
 
 
 
