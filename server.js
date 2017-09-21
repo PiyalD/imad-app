@@ -20,7 +20,7 @@ var articles={
     title: 'Article-one | Piyal De',
     heading: 'Rafa',
     date: 'August 15, 2017',
-    content:`<p> welcome to my first blog..<br>hello every one !! welcome to my first blog..
+    content:`<p> He is not just one of the greatest tennis players and greatest atheletes of all time, period but maintains a top position at the Atp Rankings
 		</p>`
 },
 
