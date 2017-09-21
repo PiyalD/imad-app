@@ -21,6 +21,7 @@ var articles={
     heading: 'Rafa: The Rising Star',
     date: 'August 15, 2017',
     content:`<img src="https://i.pinimg.com/originals/a7/fa/9d/a7fa9d9dac92aff77a8735a089cdac11.jpg" class="img-medium" align="middle"/>
+    <br>
     <a href="https://rafaelnadal.com/en/">Rafael Nadal</a>
 
     
