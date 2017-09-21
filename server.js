@@ -29,7 +29,7 @@ var articles={
 		</h2>
 		<hr/>
 		<br>
-		<iframe width="420" height="315" src="https://youtu.be/jMKmiEy0k-s></iframe>`
+		<iframe width="420" height="315" src="https://www.youtube.com/watch?v=jMKmiEy0k-s"></iframe>
 },
 
 'article-two':{
