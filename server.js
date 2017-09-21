@@ -20,16 +20,7 @@ var articles={
     title: 'Article-one | Piyal De',
     heading: 'Rafa',
     date: 'August 15, 2017',
-    content:`<p>
-		hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..
-		</p>	
-
-		<p>
-		hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..
-		</p>
-
-		<p>
-		hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..
+    content:`<p> welcome to my first blog..<br>hello every one !! welcome to my first blog..
 		</p>`
 },
 
