@@ -18,7 +18,7 @@ var articles={
     
 'article-one':{
     title: 'Article-one | Piyal De',
-    heading: 'Article one',
+    heading: 'Rafa',
     date: 'August 15, 2017',
     content:`<p>
 		hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..<br>hello every one !! welcome to my first blog..
