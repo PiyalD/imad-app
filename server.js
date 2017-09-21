@@ -14,7 +14,7 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
+//var articles={
     
 'article-one':{
     title: 'Article-one | Piyal De',
@@ -83,7 +83,7 @@ var htmlTemplate=`
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="/ui/style.css" rel="stylesheet" />
-    </head>
+    </head> 
 <body>
     <div class="container">
 	<div>
@@ -149,7 +149,7 @@ app.get('/submit-name', function(req,res){ //submit-name?name=xxx
    res.send(JSON.stringify(names));
 });
 
-app.get('/article/:articleName', function (req, res) {
+app.get('/articles/:articleName', function (req, res) {
     
     
     pool.query("SELECT * FROM article WHERE title = '" + req.params.articleName + "'", function(err, result){
