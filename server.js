@@ -18,9 +18,9 @@ var articles={
     
 'article-one':{
     title: 'Article-one | Piyal De',
-    heading: 'Rafa',
+    heading: 'Rafa: The Rising Star',
     date: 'August 15, 2017',
-    content:`<p> He is not just one of the greatest tennis players and greatest atheletes of all time, period but maintains a top position at the Atp Rankings
+    content:`<p> He is not just one of the greatest tennis players and greatest atheletes of all time, period but maintains a top position at the Atp Rankings. In a season that's seen him win his 15th Grand Slam Title, and more impressively, his tenth career title at the <a href="http://www.rolandgarros.com">French Open</a> - Rafael Nadal is World No. 1 again
 		</p>`
 },
 
