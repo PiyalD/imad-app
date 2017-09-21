@@ -21,6 +21,8 @@ var articles={
     heading: 'Rafa: The Rising Star',
     date: 'August 15, 2017',
     content:`<img src="https://i.pinimg.com/originals/a7/fa/9d/a7fa9d9dac92aff77a8735a089cdac11.jpg" class="img-medium" align="middle"/>
+    <a href="https://rafaelnadal.com/en/">Rafael Nadal</a>
+
     
     <h2> He is not just one of the greatest tennis players and greatest atheletes of all time, period but maintains a top position at the Atp Rankings. In a season that's seen him win his 15th Grand Slam Title, and more impressively, his tenth career title at the <a href="http://www.rolandgarros.com">French Open</a> - Rafael Nadal is World No. 1 again
 		</h2>`
