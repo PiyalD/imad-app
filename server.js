@@ -94,7 +94,7 @@ var htmlTemplate=`
 		${heading}
 	</h1>
 	<div>
-		${date}
+		${date.toDateString()}
 	</div>
 	<br>
 	<br>
@@ -153,13 +153,12 @@ app.get('/article/:articleName', function (req, res) {
     
     
     pool.query("SELECT * FROM article WHERE title = '" + req.params.articleName + "'", function(err, result){
-        if (err){
+        if (err) {
             res.status(500).send(err.toString());
         } else {
-            if(result.rows.lenth === 0){
+            if (result.rows.lenth === 0){
                 res.status(404).send('Article Not Found');
-            }
-            else{
+            } else {
                 var articleData = result.rows[0];
                 res.send(createTemplate(articleData));
             }
