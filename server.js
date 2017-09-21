@@ -14,7 +14,7 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
+//var articles={
     
 'article-one':{
     title: 'Article-one | Piyal De',
@@ -94,7 +94,7 @@ var htmlTemplate=`
 		${heading}
 	</h1>
 	<div>
-		${date.toDateString()}
+		${date}
 	</div>
 	<br>
 	<br>
