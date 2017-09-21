@@ -2,7 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-var pool = require('pg').Pool;
+var Pool = require('pg').Pool;
 
 var config = {
     user: 'piyalde2009',
@@ -126,7 +126,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-/*var pool = new Pool(config);
+var pool = new Pool(config);
 app.get('/test-db', function(req, res){
     //make a select request
     //return a response with the results 
@@ -138,7 +138,7 @@ app.get('/test-db', function(req, res){
         }
     });
 });
-*/
+
 var names=[];
 app.get('/submit-name', function(req,res){ //submit-name?name=xxx
     //get the name from the request
