@@ -1,6 +1,6 @@
 body {
     font-family: -webkit-body;
-    background : #793434;
+    background: rgb(36, 137, 182);
     margin-top: 60px;
 }
  footer{
@@ -14,7 +14,7 @@ body {
 
 .text-big {
     font-size: 300%;
-    color: #FF5722;
+    color: rgb(144, 243, 238);
     
 }
 
@@ -29,7 +29,7 @@ body {
 .container{
     max-width: 800px;
     margin: 0 auto;
-    color: #ddba53;
+    color: #73db77;
     font-family: -webkit-pictograph;
     padding-left: 20px;
     padding-right: 20px;
